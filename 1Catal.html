@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ялинки з ПВХ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+    @media(max-width: 1440px){
+  .ProductBox{
+    width: 300px;
+    height: 600px;
+  }
+  .Prisebox{
+    width: 300px;
+    height: 600px;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="Logo">
+                <a href="file:///C:/Users/Oleg/Desktop/Crismas%20Projeckt/index.html">
+                <img src="./img/Logo.webp" alt="" class="logo">
+                    <h3>Christmas tree</h3>
+                  </a>
+               </div>
+            <div class="nav">
+                <a href="#">Фільтр</a>
+        <a href="#">Про нас</a>
+        <a href="#">Контакти</a>
+        <a href="#">Доставка та оплата</a>
+            
+            </div>
+            <div class="Shopping">
+                <i class="fa-solid fa-heart heart"></i><div class="hertMath"></div>
+                <i class="fa-solid fa-cart-shopping cart" ></i><div class="cartMath"></div>
+            </div>
+        </div>
+        <div class="FirstScreen">
+            
+            <div class="Prisebox">
+                <h2>Ціна</h2>
+                <div class="priceBox">
+                <label for="speed" class="speedView" id="speedView"></label>
+                <input type="range" min="346" max="1466" step="50" id="speed" class="speed">
+            </div>
+            <br>
+            <div class="slide">
+                <h2>Висота <img src="./img/arrow.png" alt="" class="arrow" id="arrow1"> <img src="./img/arrow2.png" alt="" class="arrow2" id="arrow2"> </h2>
+                <br>
+                <div class="slideButtons" id="slideButtons">
+                    <div class="SlideButton" id="slB1">3M</div>
+                    <div class="SlideButton" id="slB2">2M</div>
+                <div class="SlideButton" id="slB3">1M</div>
+                </div>
+            </div>
+            <div class="slide">
+                <h2>Ширина <img src="./img/arrow.png" alt="" class="arrow" id="arrow3"> <img src="./img/arrow2.png" alt="" class="arrow2" id="arrow4"> </h2>
+                <br>
+                <div class="slideButtons" id="slideButtons2">
+                    <div class="SlideButton" id="slB3">2M</div>
+                    <div class="SlideButton" id="slB4">1M</div>
+                <div class="SlideButton" id="slB5">0,5M</div>
+                </div>
+            </div>
+            <div class="slide">
+                <h2>Матеріал <img src="./img/arrow.png" alt="" class="arrow" id="arrow3"> <img src="./img/arrow2.png" alt="" class="arrow2" id="arrow4"> </h2>
+                <br>
+                <div class="slideButtons" id="slideButtons2">
+                    <div class="SlideButton" id="slB3">2M</div>
+                    <div class="SlideButton" id="slB4">1M</div>
+                <div class="SlideButton" id="slB5">0,5M</div>
+                </div>
+            </div>
+            <div class="heightBox">
+
+            </div>
+            </div>
+            <div class="catalog">
+                <div class="ProductLine">
+                    <div class="ProductBox" id="ProductBox">
+                        <div class="ProductInfo" id="ProductInfo">
+                            <div class="ProductInfoTop">
+                                <h2> Характеристики:</h2>
+                               <i class="fa-solid fa-xmark Exit" id="ExitBut"></i>
+                            </div>
+                            <br>
+                            <p> Висота:1,50</p>
+                            <br>
+                            <p>Конструкція:Стовбурова</p>
+                            <br>
+                            <p>Країна-виробник товару:Україна</p>
+                            <br>
+                            <p>Матеріал:ПВХ</p>
+                            <br>
+                            <p>Матеріал підставки:Пластикова</p>
+                            <br>
+                            <p>Матеріал стовбура:Метал</p>
+                            <br>
+                            <p>Призначення:Інтер'єрні</p>
+                            <br>
+                            <p>Тип:Ялинки</p>
+                            <br>
+                            <p>Колір:Зелений</p>
+                            <br>
+                            <p>Ширина (м):0.92</p>
+                            <br>
+                            <p>Діаметр гілки (мм):90</p>
+                        </div>
+                        <div class="HeadtLine"><i class="fa-regular fa-heart ProductBoxheart"></i></div>
+                        <img src="./img/Product1.webp" alt="">
+                        <p>Ялинка Вікторія</p>
+                        <br>
+                        <p class="Price">1 415 грн</p>
+                        <br>
+                        <button class="ProductBoxButton">Купити</button>
+                    </div>
+                    <div class="ProductBox">
+                        <div class="ProductInfo" id="ProductInfo">
+                            <div class="ProductInfoTop">
+                                <h2> Характеристики:</h2>
+                                <i class="fa-solid fa-xmark Exit" id="ExitBut"></i>
+                            </div>
+                            <br>
+                            <p>Вид:З білими кінчиками</p>
+                            <br>
+                            <p> Висота:1,00</p>
+                            <br>
+                            <p>Гарантія:24 місяці</p>
+                            <br>
+                            <p>Конструкція:Стовбурова</p>
+                            <br>
+                            <p>Країна-виробник товару:Україна</p>
+                            <br>
+                            <p>Матеріал:ПВХ</p>
+                            <br>
+                            <p>Матеріал підставки:Пластикова</p>
+                            <br>
+                            <p>Матеріал стовбура:Метал</p>
+                            <br>
+                            <p>Призначення:Інтер'єрні</p>
+                            <br>
+                            <p>Тип:Ялинки</p>
+                            <br>
+                            <p>Колір:Зелений</p>
+                            <br>
+                            <p>Ширина (м):0.7</p>
+                            <br>
+                            <p>Діаметр гілки (мм):70</p>
+                        </div>
+                        <div class="HeadtLine"><i class="fa-regular fa-heart ProductBoxheart"></i></div>
+                        <img src="./img/Product2.webp" alt="">
+                        <p>Ялинка Лідія з білими кінчиками</p>
+                        <br>
+                        <p class="Price">400 грн</p>
+                        <br>
+                        <button class="ProductBoxButton">Купити</button>
+                    </div>
+                    <div class="ProductBox">
+                        <div class="ProductInfo" id="ProductInfo">
+                            <div class="ProductInfoTop">
+                                <h2> Характеристики:</h2>
+                                <i class="fa-solid fa-xmark Exit" id="ExitBut"></i>
+                            </div>
+                            <br>
+                            <p>Вид:Не засніжені</p>
+                            <br>
+                            <p> Висота:1,00</p>
+                            <br>
+                            <p>Гарантія:24 місяці</p>
+                            <br>
+                            <p>Конструкція:Стовбурова</p>
+                            <br>
+                            <p>Країна-виробник товару:Україна</p>
+                            <br>
+                            <p>Матеріал:ПВХ</p>
+                            <br>
+                            <p>Матеріал підставки:Пластикова</p>
+                            <br>
+                            <p>Матеріал стовбура:Метал</p>
+                            <br>
+                            <p>Призначення:Інтер'єрні</p>
+                            <br>
+                            <p>Тип:Ялинки</p>
+                            <br>
+                            <p>Колір:Зелений</p>
+                            <br>
+                            <p>Ширина (м):0.7</p>
+                            <br>
+                            <p>Діаметр гілки (мм):70</p>
+                        </div>
+                        <div class="HeadtLine"><i class="fa-regular fa-heart ProductBoxheart"></i></div>
+                        <img src="./img/Product3.jpg" alt="">
+                        <p>Ялинка Лідія з білими кінчиками та шишкою</p>
+                        <br>
+                        <p class="Price">426 грн</p>
+                        <br>
+                        <button class="ProductBoxButton">Купити</button>
+                    </div>
+                </div>
+<br>
+<br>
+<br>
+                <div class="ProductLine">
+                    <div class="ProductBox" id="ProductBox">
+                        <div class="ProductInfo" id="ProductInfo">
+                            <div class="ProductInfoTop">
+                                <h2> Характеристики:</h2>
+                                <i class="fa-solid fa-xmark Exit" id="ExitBut"></i>
+                            </div>
+                            <br>
+                            <p>Вид:Не Звичайний</p>
+                            <br>
+                            <p> Висота:1,80</p>
+                            <br>
+                            <p>Гарантія:24 місяці</p>
+                            <br>
+                            <p>Конструкція:Стовбурова</p>
+                            <br>
+                            <p>Країна-виробник товару:Україна</p>
+                            <br>
+                            <p>Матеріал:ПВХ</p>
+                            <br>
+                            <p>Матеріал підставки:Пластикова</p>
+                            <br>
+                            <p>Матеріал стовбура:Метал</p>
+                            <br>
+                            <p>Призначення:Інтер'єрні</p>
+                            <br>
+                            <p>Тип:Ялинки</p>
+                            <br>
+                            <p>Колір:Зелений</p>
+                            <br>
+                            <p>Ширина (м):0.6</p>
+                            <br>
+                            <p>Діаметр гілки (мм):70</p>
+                        </div>
+                        <div class="HeadtLine"><i class="fa-regular fa-heart ProductBoxheart"></i></div>
+                        <img src="./img/Product4.jpg" alt="">
+                        <p>Ялинка Вікторія</p>
+                        <br>
+                        <p class="Price">1 415 грн</p>
+                        <br>
+                        <button class="ProductBoxButton">Купити</button>
+                    </div>
+                    <div class="ProductBox">
+                        <div class="ProductInfo" id="ProductInfo">
+                            <div class="ProductInfoTop">
+                                <h2> Характеристики:</h2>
+                                <i class="fa-solid fa-xmark Exit" id="ExitBut"></i>
+                            </div>
+                            <br>
+                            <p>Вид:Не засніжені</p>
+                            <br>
+                            <p> Висота:1,00</p>
+                            <br>
+                            <p>Гарантія:24 місяці</p>
+                            <br>
+                            <p>Конструкція:Стовбурова</p>
+                            <br>
+                            <p>Країна-виробник товару:Україна</p>
+                            <br>
+                            <p>Матеріал:ПВХ</p>
+                            <br>
+                            <p>Матеріал підставки:Пластикова</p>
+                            <br>
+                            <p>Матеріал стовбура:Метал</p>
+                            <br>
+                            <p>Призначення:Інтер'єрні</p>
+                            <br>
+                            <p>Тип:Ялинки</p>
+                            <br>
+                            <p>Колір:Зелений</p>
+                            <br>
+                            <p>Ширина (м):0.64</p>
+                            <br>
+                            <p>Діаметр гілки (мм):60</p>
+                        </div>
+                        <div class="HeadtLine"><i class="fa-regular fa-heart ProductBoxheart"></i></div>
+                        <img src="./img/Product5.jpg" alt="">
+                        <p>Ялинка Лідія з білими кінчиками</p>
+                        <br>
+                        <p class="Price">400 грн</p>
+                        <br>
+                        <button class="ProductBoxButton">Купити</button>
+                    </div>
+                    <div class="ProductBox">
+                        <div class="ProductInfo" id="ProductInfo">
+                            <div class="ProductInfoTop">
+                                <h2> Характеристики:</h2>
+                                <i class="fa-solid fa-xmark Exit" id="ExitBut"></i>
+                            </div>
+                            <br>
+                            <p>Вид:З білими кінчиками</p>
+                            <br>
+                            <p> Висота:1,50/1,80/2,00/2,20/2,50/3,00</p>
+                            <br>
+                            <p>Гарантія:24 місяці</p>
+                            <br>
+                            <p>Конструкція:Стовбурова</p>
+                            <br>
+                            <p>Країна-виробник товару:Україна</p>
+                            <br>
+                            <p>Матеріал:ПВХ</p>
+                            <br>
+                            <p>Матеріал підставки:Пластикова</p>
+                            <br>
+                            <p>Матеріал стовбура:Метал</p>
+                            <br>
+                            <p>Призначення:Інтер'єрні</p>
+                            <br>
+                            <p>Тип:Ялинки</p>
+                            <br>
+                            <p>Колір:Зелений</p>
+                            <br>
+                            <p>Ширина (м):0,92/1,18/1,24/1,32/1,58/1,82</p>
+                        </div>
+                        <div class="HeadtLine"><i class="fa-regular fa-heart ProductBoxheart"></i></div>
+                        <img src="./img/Product6.jpg" alt="">
+                        <p>Ялинка Лідія з білими кінчиками та шишкою</p>
+                        <br>
+                        <p class="Price">426 грн</p>
+                        <br>
+                        <button class="ProductBoxButton">Купити</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let speedReading = 896;
+speedView.innerHTML = speedReading;
+
+speed.onclick = function () {
+    speedView.innerHTML = this.value;
+    speedReading = this.value;
+}
+function formTrigger(state) {
+    if (state === 1) {
+        place.style.display = 'flex';
+        add.style.display = 'none';
+        area.style.display = 'none';
+        speed.style.display = 'none';
+        speedView.style.display = 'none';
+    } else {
+        place.style.display = 'none';
+        add.style.display = 'block';
+        area.style.display = 'block';
+        speed.style.display = 'block';
+        speedView.style.display = 'block';
+
+    }
+
+}
+arrow1.onclick = function(){
+    arrow1.style.display = 'none';
+    arrow2.style.display = 'flex';
+    slideButtons.style.display = 'flex';
+}
+arrow2.onclick = function(){
+    arrow2.style.display = 'none';
+    arrow1.style.display = 'flex';
+    slideButtons.style.display = 'none';
+}
+slB1.onclick = function(){
+    slB1.style.background = 'rgba(240, 29, 6, 0.2)';
+    slB1.style.color = 'white';
+}
+slB2.onclick = function(){
+    slB2.style.background = 'rgba(240, 29, 6, 0.2)';
+    slB2.style.color = 'white';
+}
+slB3.onclick = function(){
+    slB3.style.background = 'rgba(240, 29, 6, 0.2)';
+    slB3.style.color = 'white';
+}
+let exit = $('.Exit');
+$('.Exit').click(function(){
+    if(exit == false){
+    $('.ProductInfo').css('opacity', '0');
+    $('.ProductInfo').css('top', '0')
+    }else{
+        $('.ProductInfo').css('opacity', '1');
+    $('.ProductInfo').css('top', '100%')
+    }
+})
+
+
+let likes = 0;
+$('.ProductBoxheart').attr('like', false);
+
+$('.ProductBoxheart').click(function (e) {
+    let like = $(this).attr('ProductBoxheart');
+    if (like == "false") {
+        $(this).css('color' , 'rgba(240, 29, 6, 0.2)');
+        $(this).attr('ProductBoxheart', true);
+        likes--;
+    } else {
+        $(this).css('color', 'red');
+        $(this).attr('ProductBoxheart', false);
+        likes++;
+    }
+    $('.hertMath').css('display','flex')
+    $('.hertMath').text(likes);
+});
+
+let boughts = 0
+$('.ProductBoxButton').attr('Bougth', false);
+
+$('.ProductBoxButton').click(function (e) {
+    let like = $(this).attr('ProductBoxButton');
+    if (like == "false") {
+        $(this).css('background', 'rgba(255, 100, 82, 0.9)');
+        $(this).css('color' , 'white');
+        $(this).attr('ProductBoxButton', true);
+        boughts--;
+    } else {
+        $(this).css('background', 'rgba(255, 100, 85, 0.8)');
+        $(this).css('color', 'black');
+        $(this).attr('ProductBoxButton', false);
+        boughts++;
+    }
+    $('.cartMath').css('display','flex')
+    $('.cartMath').text(boughts);
+});
+
+
+    </script>
+</body>
+</html>
